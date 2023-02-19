@@ -1,0 +1,166 @@
+@media screen and (max-width: 320px) {
+    .container {
+        width: 294px;
+    }
+        /*--------------Section1--------*/
+        .hhead {
+            text-align: center;
+            font-weight: 700;
+            font-size: 36px;
+            line-height: 1.1;
+            letter-spacing: 0.02em;
+            text-transform: capitalize;
+         }
+        
+         .phead{
+            margin-top: 8px;
+            font-weight: 500;
+            font-size: 16px;
+            line-height: 24px;
+            letter-spacing: 0.02em;
+        }
+ .about-link {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+ }
+/*--------------Section2--------*/
+.our-work{
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+ }
+  
+}
+
+@media screen and (min-width: 320px) {
+    .container {
+        width: 294px;
+    }
+    /*--------------Section1--------*/
+    .hhead {
+        text-align: center;
+        font-weight: 700;
+        font-size: 36px;
+        line-height: 1.1;
+        letter-spacing: 0.02em;
+        text-transform: capitalize;
+     }
+    
+     .phead{
+        margin-top: 8px;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 24px;
+        letter-spacing: 0.02em;
+    }
+ .about-link {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+ }
+/*--------------Section2--------*/
+.our-work{
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+ }
+ 
+    
+}
+
+@media screen and (min-width: 480px) {
+.container {
+    width: 294px;
+}
+/*-------MAIN BLACK BOX--------*/
+.mainheadder{
+   padding: 112px 56px;
+}
+/*--------------Section1--------*/
+ .about-item >.container {
+    width: 396px;
+    display: flex;
+    align-items: left;
+ }
+ .hhead {
+    text-align: center;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.1;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+ }
+
+ .phead{
+    width: 369px;
+    margin-top: 8px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.02em;
+    margin-left: -50px;
+
+}
+ 
+ .about-link {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+ }
+
+
+ /*--------------Section2--------*/
+ .our-work{
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+ }
+ /* -----FOOOTER---- */
+.subskribe-input{
+    width: 396px;
+}
+
+}
