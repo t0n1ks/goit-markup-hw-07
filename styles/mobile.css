@@ -2,6 +2,7 @@
     .container {
         width: 294px;
     }
+    
         /*--------------Section1--------*/
         .hhead {
             text-align: center;
@@ -93,13 +94,18 @@
     clip: rect(0 0 0 0);
     overflow: hidden;
  }
- 
     
 }
 
 @media screen and (min-width: 480px) {
 .container {
-    width: 294px;
+    width: 458px;
+}
+.container-one {
+   width: 426px;
+}
+.container-three{
+   width: 294px;
 }
 /*-------MAIN BLACK BOX--------*/
 .mainheadder{
@@ -162,5 +168,10 @@
 .subskribe-input{
     width: 396px;
 }
-
+/* PORTFOLIO */
+.container-portfolio{
+   width: 426px;
+   align-items: center;
+   justify-content: center;
+}
 }

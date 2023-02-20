@@ -2,6 +2,10 @@
     .container {
         width: 582px;
     }
+
+    .container-one{
+        width: 766px;
+    }
     /* ------TOPLINE---------- */
     .menu-open{
         display: none;
@@ -32,7 +36,7 @@
         height: 4px;
         background-color: var(--second-btn-color);
         left: 0;
-        bottom: -25px;
+        bottom: -37px;
         border-radius: 2px;
     
     }
@@ -232,6 +236,23 @@
     display: flex;
     justify-content: center;
 }
-    
+        /*--------------PORTFOLIO--------*/
+.container-portfolio{
+    width: 766px;
+}
+.portfolio-content{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 72px 16px;
+}
+.nav-portfolio{
+    justify-content: center;
+    margin-bottom: 72px;
+    display: flex;
+    gap: 24px;
+    flex-wrap: nowrap;
+}
 
     }
+
+

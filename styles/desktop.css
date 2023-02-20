@@ -2,7 +2,10 @@
     .container {
         width: 1158px;
     }
-
+    /* TOPLINE */
+    .header-nav .active-link::after{
+        bottom: -25px;
+    }
 
     /*-------MAIN BLACK BOX--------*/
     .mainheadder >.container{
@@ -191,5 +194,14 @@
         margin-left: 80px;
         padding-top: 100px;
     }
+
+    /* -------MAIN CONTENT PORTFOLIO--------  */
+
+.portfolio-content{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 48px 24px;
+}
+
     
     }
