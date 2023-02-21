@@ -2,6 +2,10 @@
     .container {
         width: 1158px;
     }
+    .container-portfolio{
+        width: 1158px;
+    } 
+
     /* TOPLINE */
     .header-nav .active-link::after{
         bottom: -25px;
