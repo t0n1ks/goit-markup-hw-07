@@ -66,6 +66,15 @@ img{
    /*-outline: 1px solid red;-*/
 }
 
+.container-portfolio{
+    /* width: 1158px; */
+    padding-left: 15px;
+    padding-right: 15px;
+    outline: 1px;
+    margin: 0 auto;
+   /*-outline: 1px solid red;-*/
+}
+
 /*-----SHABLON-TOP-LINE-------*/
 .topline {
     padding-top: 25px;
@@ -234,6 +243,7 @@ display: grid;
     line-height: 1.1;
     text-transform: capitalize;
     color: #434455;
+    margin-bottom: 40px;
 }
 .mob-menu-tel:hover,
 .mob-menu-tel:focus,
