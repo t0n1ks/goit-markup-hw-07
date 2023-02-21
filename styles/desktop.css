@@ -1,11 +1,8 @@
 @media screen and (min-width: 1200px) {
-    .container {
+    .container, .container-portfolio {
         width: 1158px;
     }
-    .container-portfolio{
-        width: 1158px;
-    } 
-
+    
     /* TOPLINE */
     .header-nav .active-link::after{
         bottom: -25px;
