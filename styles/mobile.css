@@ -1,6 +1,6 @@
 @media screen and (max-width: 320px) {
     .container {
-        width: 294px;
+      min-width: 320px;
     }
     .container-portfolio{
          width: 294px;
@@ -38,6 +38,13 @@
     clip: rect(0 0 0 0);
     overflow: hidden;
  }
+ /* mobmenu */
+ .container-mob{
+   width: 296px;
+ }
+ .mob-soc-list{
+   gap: 15px
+ }
 /*--------------Section2--------*/
 .our-work{
     position: absolute;
@@ -51,12 +58,30 @@
     clip: rect(0 0 0 0);
     overflow: hidden;
  }
+  /* Sectio4 */
+  .cust-link {
+   width: 100%;
+   height: 100%;
+ }
+
+  /* -----FOOOTER---- */
+.subskribe-input{
+   width: 100%;
+}
+/* PORTFOLIO */
+.portfolio-content {
+   justify-content: center;
+   align-items: center;
+}
+.container-portfolio{
+   width: 296px;
+}
   
 }
 
 @media screen and (min-width: 320px) {
     .container {
-        width: 294px;
+      min-width: 320px;
     }
 
     /*--------------Section1--------*/
@@ -88,6 +113,13 @@
     clip: rect(0 0 0 0);
     overflow: hidden;
  }
+ /* mobmenu */
+ .container-mob{
+   width: 320px;
+ }
+ .mob-soc-list{
+   gap: 20px
+ }
 /*--------------Section2--------*/
 .our-work{
     position: absolute;
@@ -107,12 +139,28 @@
    align-items: center;
       justify-content: center;
  }
-    
+ /* Sectio4 */
+ .cust-link {
+   width: 100%;
+   height: 100%;
+ }
+  /* -----FOOOTER---- */
+.subskribe-input{
+   width: 320px;
+}
+/* PORTFOLIO */
+.portfolio-content {
+   justify-content: center;
+   align-items: center;
+}
+.container-portfolio{
+   width: 320px;
+}
 }
 
 @media screen and (min-width: 480px) {
 .container {
-    width: 458px;
+   max-width: 428px;
 }
 .container-one {
    width: 426px;
@@ -122,7 +170,7 @@
 }
 /*-------MAIN BLACK BOX--------*/
 .mainheadder{
-   padding: 112px 56px;
+   padding: 112px 0px;
 }
 /*--------------Section1--------*/
  .about-item >.container {
@@ -163,6 +211,13 @@
     overflow: hidden;
  }
 
+ /* mobmenu */
+ .container-mob{
+   width: 428px;
+ }
+ .mob-soc-list{
+   gap: 56px;
+ }
 
  /*--------------Section2--------*/
  .our-work{
@@ -182,6 +237,10 @@
     width: 396px;
 }
 /* PORTFOLIO */
+.portfolio-content {
+   justify-content: center;
+   align-items: center;
+}
 .container-portfolio{
    width: 426px;
    align-items: center;
